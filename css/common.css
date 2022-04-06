@@ -1,0 +1,59 @@
+body {
+  width: 700px;
+  background-color: black;
+  background-image: url("../images/back.png");
+}
+
+#pageNavi {
+  color: white;
+  text-align: center;
+}
+
+#avatar{
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/avatar/right.png");
+  position: absolute;
+}
+
+#container {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  background-size: 100% 100%;
+}
+
+.pages {
+  width: 400px;
+  height: 350px;
+  top: 90px;
+  left: 140px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  flex-flow: column;
+  padding: 10px;
+}
+.pages * {
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: auto !important;
+}
+
+h2 {
+  border-bottom: solid 1px;
+}
+
+table {
+  border: solid 1px;
+  text-align: left;
+}
+
+pre {
+  background-color: #f6f8fa;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+}
