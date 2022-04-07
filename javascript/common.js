@@ -138,7 +138,7 @@ function walkYoko(left) {
     avatar.style.left = MAX_LEFT_CONTAINER;
     currentRoomNum--;
     buildRoom();
-  } else if (MAX_LEFT_CONTAINER < nextLeftPx) {
+  } else if (MAX_LEFT_CONTAINER + AVATAR_WIDTH / 2 < nextLeftPx) {
     avatar.style.left = MIN_LEFT_CONTAINER;
     currentRoomNum++;
     buildRoom();
