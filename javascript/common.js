@@ -14,8 +14,8 @@
   let currentPageNum = 0;
 
   // アバターの初期位置
-  avatar.style.top = MIN_TOP_CONTAINER;
-  avatar.style.left = MIN_LEFT_CONTAINER;
+  avatar.style.top = 320;
+  avatar.style.left = 320;
 
   buildRoom();
 
