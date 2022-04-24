@@ -82,6 +82,14 @@
         pages[i].style.display = 'none';
       }
     }
+
+    if (pages.length <= 1) {
+      return;
+    }
+
+    // ◀p n▶ を表示
+    document.getElementById('pagingP').textContent = currentPageNum === 0 ? '' : '◀p';
+    document.getElementById('pagingN').textContent = pages.length - 1 === currentPageNum ? '' : 'n▶';
   }
 
   // アバター画像の変更

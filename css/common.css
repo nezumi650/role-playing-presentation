@@ -8,7 +8,10 @@ body {
 
 #pageNavi {
   color: white;
-  text-align: center;
+  top: 20px;
+  left: 730px;
+  width: 100px;
+  position: absolute;
 }
 
 #avatar{
@@ -51,6 +54,21 @@ body {
 }
 .pages * {
   margin: 5px;
+}
+
+#pagingNavi {
+  width: 100%;
+  top: 425px;
+  color: black;
+  position: absolute;
+  display:flex;
+  justify-content: space-between;
+}
+#pagingP {
+  margin-left: 100px;
+}
+#pagingN {
+  margin-right: 100px;
 }
 
 h1 {
