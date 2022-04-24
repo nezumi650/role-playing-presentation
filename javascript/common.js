@@ -32,6 +32,7 @@
     paging();
   }
 
+  // プレゼン内容の描写
   function buildPages() {
     const pages = rooms[currentRoomNum].split(/(?=\n## )/g);
     for (let i = 0; i < pages.length; i++) {
@@ -46,6 +47,7 @@
     }
   }
 
+  // 背景画像の選定
   function setBackgroundImage() {
     // 個別の設定があればそれを使う
     if (BACKGROUND_IMAGES[currentRoomNum]) {
