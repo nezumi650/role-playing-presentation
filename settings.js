@@ -15,7 +15,7 @@ const MIN_TOP_CONTAINER = 0;
 const MAX_TOP_CONTAINER = CONTAINER_HEIGHT - AVATAR_HEIGHT;
 
 // 廊下の縦幅(px)
-const MIN_TOP_ROUKA = 120;
+const MIN_TOP_ROUKA = 130;
 const MAX_TOP_ROUKA = 330;
 
 // ページ送り
