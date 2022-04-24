@@ -1,5 +1,5 @@
 # ![](https://github.com/nezumi650/role-playing-presentation/blob/main/images/avatar/right.gif) role-playing-presentation ![](https://github.com/nezumi650/role-playing-presentation/blob/main/images/avatar/left.gif)
-アバターを操作しながら発表できるプレゼンテーションシステムです。
+アバターを操作しながら発表できるプレゼンテーションツールです。
 
 気のおけないプレゼン大会でご利用ください。
 
