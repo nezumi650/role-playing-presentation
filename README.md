@@ -4,9 +4,10 @@
 
 アバターや背景など、お好みでカスタマイズしてご利用ください。
 
-使い方説明 兼 デモ： https://nezumi650.github.io/role-playing-presentation/
+使い方説明 兼 デモはこちら： https://nezumi650.github.io/role-playing-presentation/
 
 ----
 
 * 推奨ブラウザ： Chrome
+* Mac　のシステム環境設定から「キーのリピート」を調整することで、アバターの移動速度を変更できます。
 * Markdown パーサーとして https://www.npmjs.com/package/marked を利用しています。
