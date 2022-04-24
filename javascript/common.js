@@ -88,6 +88,8 @@
     }
 
     if (pages.length <= 1) {
+      document.getElementById("pagingP").textContent = "";
+      document.getElementById("pagingN").textContent = "";
       return;
     }
 
