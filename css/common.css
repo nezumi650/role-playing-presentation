@@ -14,9 +14,22 @@ body {
 #avatar{
   width: 50px;
   height: 50px;
-  background-image: url("../images/avatar/right.png");
   position: absolute;
 }
+#action{
+  width: 100%;
+  height: 20px;
+  position: absolute;
+}
+#avatarImg{
+  position: absolute;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/avatar/right.png");
+  background-size: 100% 100%;
+}
+
 
 #container {
   width: 700px;

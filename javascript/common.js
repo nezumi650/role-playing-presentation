@@ -2,6 +2,9 @@
 
 (function () {
   const avatar = document.getElementById('avatar');
+  const action = document.getElementById("action");
+  const avatarImg = document.getElementById("avatarImg");
+
   const container = document.getElementById('container');
 
   const rooms = container.innerHTML.split('<!--next-->');
@@ -84,12 +87,12 @@
     const backgroundImage = imageFile.match(/url/)
       ? imageFile
       : `url('./images/avatar/${imageFile || 'right.png'}')`;
-    avatar.style.backgroundImage = backgroundImage;
+    avatarImg.style.backgroundImage = backgroundImage;
   }
 
   // 縦方向の移動
   function walkTate(top) {
-    setAvatarImage(avatar.style.backgroundImage.replace('png', 'gif'));
+    setAvatarImage(avatarImg.style.backgroundImage.replace('png', 'gif'));
     let nextTopPx = avatar.style.top.replace('px', '') * 1 + top;
 
     nextTopPx =
@@ -186,13 +189,21 @@
         default:
           // do nothing
       }
+
+      // 絵文字アクション
+      if (EMOJIS[event.key]) {
+        action.style.backgroundImage = `url('./images/emoji/${
+          EMOJIS[event.key]
+        }')`;
+      }
     },
     false
   );
   document.addEventListener(
     'keyup',
     function () {
-      setAvatarImage(avatar.style.backgroundImage.replace('gif', 'png'));
+      setAvatarImage(avatarImg.style.backgroundImage.replace('gif', 'png'));
+      action.style.backgroundImage = "none";
     },
     false
   );
