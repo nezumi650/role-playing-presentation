@@ -25,7 +25,8 @@ const NextPageKey = 'n'; //次のページを表示
 // 背景画像
 // 部屋番号(0始まり): 画像名
 const BACKGROUND_IMAGES = {
-  3: 'sample.png'
+  3: 'sample.png',
+  4: 'hondana.png'
 };
 
 // 絵文字アクション
